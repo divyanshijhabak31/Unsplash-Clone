@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+.mydiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 2px grey;
+  padding:10px;
+  
+}
+.mydiv input{
+  width:40%;
+  font-size:25px;
+  border:2px solid black;
+}
+.mydiv button{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
+  cursor: pointer;
+  background-color:lightgreen}
+button:hover{
+  background-color: lightblue;
+}
+.menu h1{
+  text-align: center;
+  font-size: 4rem;
+  color:purple;
+  font-family: 'Times New Roman';
+  text-shadow: 1px 2px 4px lightseagreen;
+}
+body{
+  background-color:rgb(235, 213, 235);
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item{
+  width:30%;
+  height:30%;
+  margin: 6px;
+
+}

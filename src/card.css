@@ -1,0 +1,39 @@
+.cards{
+    width:100%;
+    height:auto;
+    align-items: center;
+    justify-content: center;  
+    margin-top: -50px;
+}
+.card{
+    margin:6%;
+    background-color: white;
+    width:20%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 5px 7px pink; 
+    float: left;
+    display: flex;
+    flex-direction: row;    
+    flex-wrap:wrap;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0, 1);
+}
+.card:hover{
+    transform: scale(1.05,1.05);
+}
+.cardimg{
+    width:265px;
+    height: 300px;
+}
+button{
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+.menu{
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+    font-size: 35px;
+    font-weight: bold;
+}
